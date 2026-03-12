@@ -5,29 +5,13 @@
   "exports":
   {
     ".": "./lib/index.js",
+    "./utils": "./lib/utils.js",
     "./webpack": "./lib/webpack.js",
     "./package.json": "./package.json"
   },
-  "dependencies": 
-  {
+  "dependencies": {
     "@lumjs/build": "^1.1.0",
-    "@lumjs/core": "^1.38.8",
-    "@rbarilani/remove-source-map-url-webpack-plugin": "^1.1.0",
-    "autoprefixer": "^10.4.23",
-    "css-loader": "^7.1.2",
-    "favicons": "^7.2.0",
-    "favicons-webpack-plugin": "^6.0.1",
-    "file-loader": "^6.2.0",
-    "html-loader": "^5.1.0",
-    "html-webpack-plugin": "^5.6.5",
-    "mini-css-extract-plugin": "^2.9.4",
-    "postcss": "^8.5.6",
-    "postcss-import": "^16.1.1",
-    "postcss-loader": "^8.2.0",
-    "postcss-nesting": "^13.0.2",
-    "style-loader": "^4.0.0",
-    "webpack": "^5.104.1",
-    "webpack-cli": "^6.0.1"
+    "@lumjs/core": "^1.38.8"
   },
   "repository":
   {

@@ -15,10 +15,8 @@ Unlike those packages, this package is simply a collection of bits and pieces
 that can be used separately, or together in whatever way works best for each
 individual project.
 
-It does include a bunch of Webpack and PostCSS dependencies that I use a lot,
-simply so I can have one quick `devDependencies` entry that pulls in all
-the usual components I use for bundling. Eventually it may also pull in the
-TypeScript compiler if/when I get around to trying that out.
+It may at some point include more dependencies and helpers for some of the
+packages I use a lot, but for now I'm keeping it pretty minimal.
 
 ## Official URLs
 
